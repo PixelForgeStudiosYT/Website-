@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #222222;
+    background-image: url('img/mainbackground.png');
+    background-position: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.header_img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0,5)
+}
+
+/*Header*/
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+/*Nav*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Logo*/
+.logo {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-right: auto;
+}
+
+
+/*Hero*/
+#hero {
+    background: url('img/portfolio-bg.png') no-repeat center center/cover;
+    height: 100vh;
+    color: hsl(295, 100%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    position: relative;
+    bottom: 100px;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+}
+
+.hero-content p {
+    font-size: 1em;
+}
+
+/*Button Style*/
+.cta-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*Button Style Hover*/
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/*Space between*/
+#about, #projects, #contact {
+    padding: 60px 300px;
+    text-align: center;
+}
+
+/*Projects*/
+#projects .project-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+/* Team Wrapper */
+.team-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.team-section {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.team-category {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    flex: 0 1 calc(33.333% - 20px);
+    max-width: 300px;
+    height: 430px;
+    border-radius: 30px;
+    background: #272727;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1), box-shadow 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.image-container {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    position: relative;
+    top: 8%;
+    width: 190px;
+    height: 190px;
+    border-radius: 30px;
+    opacity: 1;
+    box-shadow: inset 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.tasks {
+    position: relative;
+    left: 20px;
+    width: 260px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 1;
+    visibility: visible;
+}
+
+    
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
